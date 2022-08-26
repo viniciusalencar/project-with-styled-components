@@ -1,14 +1,14 @@
-import React from 'react';
-import { View, Text } from 'react-native';
-
-import { styled } from './styles';
+import { 
+  Container,
+  Text
+} from './styles';
 
 export const Home = () => {
   return (
-    <View style={styled.container}>
-      <Text style={styled.text}>
+    <Container>
+      <Text>
         HOME
       </Text>
-    </View>
+    </Container>
   )
 };
