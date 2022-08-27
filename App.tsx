@@ -1,7 +1,12 @@
+import { ThemeProvider } from 'styled-components';
 import { Home } from './src/screens/Home';
+
+import light from './src/screens/theme/light';
 
 export default function App() {
   return (
-    <Home />
+    <ThemeProvider theme={light}>
+      <Home />
+    </ThemeProvider>
   );
 }
